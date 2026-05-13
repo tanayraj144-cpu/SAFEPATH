@@ -1,0 +1,10 @@
+# API Keys and Secrets
+.env
+serviceAccount.json
+safepath-*.json
+
+# Dependencies
+node_modules/
+
+# Mac/OS system files
+.DS_Store
