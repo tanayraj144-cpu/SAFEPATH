@@ -1,41 +1,44 @@
-# SafePath: Smart Safety Navigation #
+# 🛡️ SafePath: Smart Safety Navigation
 
-**SafePath** is a navigation system that uses intelligence to help people get where they need to go safely. It looks at the safety of routes in real time checking things like how well lit they are and what other people have said about them. This helps users pick the route for their trip.
-
----
-
-## Live Demo
-
-**Render Link :** https://safepath-dnc7.onrender.com
+**SafePath** is a navigation system that uses artificial intelligence to help people get where they need to go securely. It evaluates the safety of routes in real-time by analyzing factors like lighting conditions and community-reported data, helping users choose the safest possible path for their journey.
 
 ---
 
-## Key Features
+## 🏆 Project Ownership & Context
+**Developed exclusively for the WitchHunt Hackathon.**
 
-* **Safety Scores:** SafePath uses Google Gemini intelligence to figure out how safe a route is based on lots of different factors.
+**Original Development Team:**
+* Tanay Raj (@tanayraj144-cpu)
+* Maulik Jain (@jainmaulik24)
+* Kandula Sri Santhoshini (@santhoshini1205)
+* Radhika Kumari (@RadhikaKumari3007)
 
-* **Finding Safer Routes:** If SafePath thinks a route is not safe it will suggest an one that is safer.
+*(Note: This repository serves as the official and original submission by the developers listed above. Any duplication or misrepresentation of this work by external parties is strictly prohibited.)*
 
-* **Telling Us About Problems:** People can tell us about areas that're not well lit or where they have had safety problems.
+---
 
-* **Emergency Help:** There is a button to send an emergency message to important contacts with a map of where you are.
+## 🚀 Live Demo
+**Render Link:** [https://safepath-dnc7.onrender.com](https://safepath-dnc7.onrender.com)
 
-* **Safety Landmarks:** We mark nearest safety places like police stations, hospitals and areas, with security cameras.
+---
 
-  
+## ✨ Key Features
+* **Safety Scores:** SafePath uses Google Gemini intelligence to calculate how safe a route is based on multiple risk factors.
+* **Finding Safer Routes:** If SafePath determines a route is high-risk, it will dynamically suggest a safer alternative.
+* **Community Reporting:** Users can report areas with poor lighting or where they have experienced safety concerns.
+* **Emergency Help:** Features a one-touch button to send an emergency SOS message, including live location mapping, to important contacts.
+* **Safety Landmarks:** The map visually flags the nearest safety anchors, such as police stations, hospitals, and CCTV-monitored zones.
 
-## Tech Stack
+## 🛠️ Tech Stack
+* **Front End:** HTML5, CSS3, and Vanilla JavaScript for a responsive user interface.
+* **Maps:** Leaflet.js with CartoDB Dark Matter tiles for interactive mapping.
+* **Back End:** Node.js and Express.js to power the server logic.
+* **Artificial Intelligence:** Google Gemini AI SDK for advanced safety score calculations.
+* **Database:** Firebase Admin SDK to securely store and manage community data.
+* **Deployment:** Hosted live on Render for judge accessibility, with GitHub for version control and collaboration.
 
-* **Front End:** We use HTML5, CSS3 and regular JavaScript to make the user interface.
+---
 
-* **Maps:** We use Leaflet.js with CartoDB Dark Matter tiles to show maps.
-
-* **Back End:** We use Node.js and Express.js to make the server work.
-
-* **Artificial Intelligence:** We use Google Gemini intelligence to help with safety scores.
-
-* **Database:** We use Firebase Admin SDK to store and manage data.
-
-* **Putting It Online:** We use Render to put the end online, and for judges to access it as localhost wouldnt work, and GitHub to manage different versions.
-
-
+## ⚖️ License & Copyright
+**© 2026 SafePath Development Team. All Rights Reserved.**
+The concepts, code, and assets within this repository were conceptualized and engineered by the original team listed above. Unauthorized distribution, commercialization, or claiming of credit for this project by third parties without explicit written permission is strictly prohibited.
